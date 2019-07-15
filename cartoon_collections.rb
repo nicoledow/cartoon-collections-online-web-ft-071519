@@ -9,7 +9,6 @@ def summon_captain_planet(calls)
   calls.map do |call|
     call = "#{call.capitalize}!"
   end
-  #exclamations
 end
 
 def long_planeteer_calls# code an argument here
