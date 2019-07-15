@@ -21,9 +21,8 @@ def find_the_cheese(strings)
   strings.select do |ingredient|
     if cheese_types.include?(ingredient)
       ingredient
-      
     else
-      nil
+      return nil
     end
   end
 end
