@@ -6,8 +6,8 @@ end
 
 def summon_captain_planet(calls)
   exclamations = []
-  calls.each do |call|
-    exclamations << "#{call.capitalize}!"
+  calls.map do |call|
+    call = "#{call.capitalize}!"
   end
   exclamations
 end
